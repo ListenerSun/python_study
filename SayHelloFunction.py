@@ -8,3 +8,9 @@ def say_hello():
     print("Hello ListenerSun")
     print("Hello ListenerSun")
     print("Hello ListenerSun")
+
+
+def sum_2_num(num1, num2):
+    """计算两数之和"""
+    result = num1 + num2
+    return result

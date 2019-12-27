@@ -1,4 +1,6 @@
 import SayHelloFunction
 
 SayHelloFunction.say_hello()
-print("调用了 say_hello 函数")
+
+result = SayHelloFunction.sum_2_num(10, 11)
+print("10 + 11 = %s" % result)
