@@ -12,6 +12,7 @@ class Women:
     def secret(self):
         print("%s 的年龄是 %s" % (self.name, self.__age))
 
+
 my = Women("小红")
 print(my.secret())
 
