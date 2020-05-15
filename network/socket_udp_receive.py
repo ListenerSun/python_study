@@ -1,7 +1,8 @@
 import socket
 
 
-def main():
+# udp 服务端
+def udp_server():
     while True:
         udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         ip = ("", 8000)
@@ -12,4 +13,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # udp_server()
+    pass
